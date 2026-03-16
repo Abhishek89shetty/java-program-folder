@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 public  class TestApp
 {
@@ -50,6 +51,5 @@ public  class TestApp
         System.out.print("pls enter the vaild menu number.");
               break;
               }
-}
 }
 }
