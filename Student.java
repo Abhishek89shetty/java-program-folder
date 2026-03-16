@@ -1,6 +1,6 @@
 public class Student
 {
-    int score;
+    int score=0;
     boolean punishment;
 
     private int viewScore()
@@ -23,10 +23,10 @@ public class Student
           
          if(punishment==true)
             {
-                System.out.println("today ur not getting attendance because ur score is low!!!!!");
+             System.out.println("today ur not getting attendance because ur score is low!!!!!");
             }   
             else{
-                System.out.println("keep it up good going>>>");
+             System.out.println("keep it up good going>>>");
             }
     }
     public void endDay()

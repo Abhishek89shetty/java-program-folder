@@ -3,7 +3,8 @@ class C4
 {
     public static void main(String[] agrs)
     {
-        Scanner s=new Scanner(System.in);
+        Scanner s  =new Scanner(System.in);
+        
         int s1,s2,s3,s4,s5,s6;
         float per;
         System.out.println("eneter your subject marks one  by one");
@@ -20,7 +21,7 @@ class C4
         System.out.println("sanskrit");
         s6=s.nextInt();
        per = ((float)(s1+s2+s3+s4+s5+s6)/600)*100;
-       System.out.print("your is percentage:" + per);
+       System.out.print("your percentage is:" + per);
        System.out.println(per);
            }
 }
